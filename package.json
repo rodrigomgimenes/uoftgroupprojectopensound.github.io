@@ -1,0 +1,28 @@
+{
+  "name": "open-sound-studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "express": "^4.17.1",
+    "express-session": "^1.16.1",
+    "helmet": "^3.22.0",
+    "mysql2": "^1.6.5",
+    "node-spotify-api": "^1.1.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "querystring": "^0.2.0",
+    "query-string": "^6.12.1",
+    "request": "^2.88.2",
+    "sequelize": "^5.8.6"
+  }
+}
